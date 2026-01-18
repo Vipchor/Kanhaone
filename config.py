@@ -20,7 +20,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
 # Chat id of a group for logging bot's activities
 BANNED_USERS = []
-LOGGER_ID = 0
+LOGGER_ID = -1002136457746  # apna Telegram user ID yahan dal sakte ho
 # Get this value from @MissRose_Bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID","6391774843"))
 
