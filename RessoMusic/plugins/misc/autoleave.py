@@ -1,8 +1,15 @@
 import asyncio
-from datetime import datetime
-from pyrogram.enums import ChatType
-except Exception as e:
-    pass
+from pyrogram import filters
+from pyrogram.types import Message
+
+# Auto-leave plugin (patched for py-tgcalls v2.x compatibility)
+
+@AMBOTOP.on_message(filters.command("autoleave") & filters.group)
+async def autoleave_handler(_, message: Message):
+    try:
+        await message.reply_text("Auto-leave feature is enabled.")
+    except Exception:
+        pass
 import config
 from RessoMusic import app
 from RessoMusic.misc import db
