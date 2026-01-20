@@ -21,8 +21,8 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 # Chat id of a group for logging bot's activities
 # Users & Logging
 BANNED_USERS = []
-LOGGER_ID = 7980630836            # apna Telegram ID yahan dal sakte ho
-LOG_GROUP_ID = -1002136457746         # apna Telegram group ID yahan dal sakte ho
+LOGGER_ID = 8417510906            # apna Telegram ID yahan dal sakte ho
+LOG_GROUP_ID = -1002389305159         # apna Telegram group ID yahan dal sakte ho
 # Get this value from @MissRose_Bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID","6391774843"))
 
@@ -44,8 +44,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", "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"
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHAT", "https://t.me/IamIstkhar")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+xfr6-ZOTaZVmODU1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHAT", "https://t.me/+St2iiL0MMMQ2ZWM0")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+St2iiL0MMMQ2ZWM0")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -134,6 +134,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
