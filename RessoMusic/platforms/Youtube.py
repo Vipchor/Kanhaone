@@ -14,7 +14,7 @@ import glob
 import random
 import logging
 import aiohttp
-from IstkharMusic import app
+from RessoMusic import app
 import config
 from config import BASE_URL, API_KEY
 from urllib.parse import urlparse
